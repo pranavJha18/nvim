@@ -7,9 +7,10 @@ local options = {
     typescript = { "prettierd" },
     tailwindcss = { "rustywind" },
     json = { "prettierd" },
-    --    jsonc = { "prettierd" },
-
+    c = { "clang_format" },
+    cpp = { "clang_format" },
     python = { "black" },
+    markdown = { "prettierd" },
   },
 
   format_on_save = {

@@ -31,6 +31,8 @@ return {
         "typescript",
         "tsx",
         "java",
+        "markdown",
+        "markdown_inline",
       },
     },
   },
