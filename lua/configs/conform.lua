@@ -11,6 +11,7 @@ local options = {
     cpp = { "clang_format" },
     python = { "black" },
     markdown = { "prettierd" },
+    java = { "google_java_format" },
   },
 
   format_on_save = {

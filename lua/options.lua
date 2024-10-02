@@ -4,11 +4,13 @@ require "nvchad.options"
 
 local o = vim.o
 o.cursorlineopt = "both" -- to enable cursorline!
-o.colorcolumn = "100"
+o.colorcolumn = "90"
 o.relativenumber = true
 
 --Neovide options:->
 if vim.g.neovide then
+  --  vim.g.neovide_transparency = 0.8 -- Adjust this value for transparency
+
   vim.g.neovide_padding_top = 14
 
   vim.keymap.set("i", "<C-S-v>", "<C-R>+", { noremap = true, silent = true })
